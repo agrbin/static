@@ -1,6 +1,5 @@
 // inspired from https://visjs.org/examples/network/data/dynamicData.html
 // TODO: visualize timeline
-// TODO: write some stats and when was the data last refreshed
 function draw() {
   var nodes = new vis.DataSet();
   var num_reached = 0;
