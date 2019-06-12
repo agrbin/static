@@ -46,7 +46,7 @@ var status_data = {
             "gender": "m",
             "id": "JFm",
             "initial": "JF",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -82,7 +82,7 @@ var status_data = {
             "gender": "f",
             "id": "NKf",
             "initial": "NK",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "f",
@@ -124,7 +124,7 @@ var status_data = {
             "gender": "m",
             "id": "DMm",
             "initial": "DM",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "f",
@@ -332,6 +332,29 @@ var status_data = {
                 "RMm"
             ],
             "t": 1560354989
+        },
+        {
+            "name_id": "DMm",
+            "src_ids": [
+                "ABf"
+            ],
+            "t": 1560359450
+        },
+        {
+            "name_id": "NKf",
+            "src_ids": [
+                "ITf",
+                "MKf"
+            ],
+            "t": 1560360520
+        },
+        {
+            "name_id": "JFm",
+            "src_ids": [
+                "KNm",
+                "RMm"
+            ],
+            "t": 1560361448
         }
     ]
 };
