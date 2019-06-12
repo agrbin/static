@@ -16,7 +16,7 @@ var status_data = {
             "gender": "f",
             "id": "ABf",
             "initial": "AB",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -164,8 +164,8 @@ var status_data = {
         },
         {
             "gender": "m",
-            "id": "SSm",
-            "initial": "SS",
+            "id": "S\u0160m",
+            "initial": "S\u0160",
             "reached": false
         },
         {
@@ -325,6 +325,13 @@ var status_data = {
                 "VVm"
             ],
             "t": 1560353721
+        },
+        {
+            "name_id": "ABf",
+            "src_ids": [
+                "RMm"
+            ],
+            "t": 1560354989
         }
     ]
 };
