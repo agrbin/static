@@ -100,7 +100,7 @@ var status_data = {
             "gender": "m",
             "id": "ALm",
             "initial": "AL",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -136,7 +136,7 @@ var status_data = {
             "gender": "m",
             "id": "INm",
             "initial": "IN",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -172,7 +172,7 @@ var status_data = {
             "gender": "m",
             "id": "VSm",
             "initial": "VS",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "f",
@@ -190,7 +190,7 @@ var status_data = {
             "gender": "m",
             "id": "FTm",
             "initial": "FT",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -321,8 +321,7 @@ var status_data = {
         {
             "name_id": "AFm",
             "src_ids": [
-                "MKf",
-                "VVm"
+                "MKf"
             ],
             "t": 1560353721
         },
@@ -355,6 +354,37 @@ var status_data = {
                 "RMm"
             ],
             "t": 1560361448
+        },
+        {
+            "name_id": "INm",
+            "src_ids": [
+                "NCf"
+            ],
+            "t": 1560370877
+        },
+        {
+            "name_id": "VSm",
+            "src_ids": [
+                "NCf",
+                "KNm",
+                "MKf",
+                "INm"
+            ],
+            "t": 1560418645
+        },
+        {
+            "name_id": "ALm",
+            "src_ids": [
+                "MKf"
+            ],
+            "t": 1560419602
+        },
+        {
+            "name_id": "FTm",
+            "src_ids": [
+                "MKf"
+            ],
+            "t": 1560420208
         }
     ]
 };
