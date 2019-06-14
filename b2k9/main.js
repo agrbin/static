@@ -15,7 +15,7 @@ function draw() {
     if (!person.reached) {
       node.fixed = true;
       node.x = -300 + index * 20;
-      node.y = 250;
+      node.y = 300;
       node.mass = 1;
     } else {
       num_reached++;
@@ -39,7 +39,12 @@ function draw() {
           inherit: false,
           color: "gray",
         },
-        arrows: "to",
+        arrows: {
+          to: {
+            enabled: true,
+            scaleFactor: 0.5,
+          },
+        },
       })
     });
   });
@@ -59,7 +64,7 @@ function draw() {
       },
     },
     layout: {
-      randomSeed: 1,
+      randomSeed: 6,
     },
     interaction: {
       dragView: false,
