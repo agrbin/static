@@ -28,7 +28,7 @@ var status_data = {
             "gender": "m",
             "id": "ACm",
             "initial": "AC",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -112,7 +112,7 @@ var status_data = {
             "gender": "m",
             "id": "BMm",
             "initial": "BM",
-            "reached": false
+            "reached": true
         },
         {
             "gender": "m",
@@ -406,6 +406,21 @@ var status_data = {
                 "AGm"
             ],
             "t": 1560454973
+        },
+        {
+            "name_id": "BMm",
+            "src_ids": [
+                "AGm"
+            ],
+            "t": 1560697788
+        },
+        {
+            "name_id": "ACm",
+            "src_ids": [
+                "AFm",
+                "VVm"
+            ],
+            "t": 1560938140
         }
     ]
 };
